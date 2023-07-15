@@ -1,0 +1,117 @@
+.navbar-image1 {
+  width: 100px;
+  height: 80px;
+}
+
+.navbar-head {
+  text-decoration: none;
+  color: #f25e0f;
+  font-family: "Roboto";
+  font-size: 25px;
+  transition: 0.5s ease;
+}
+
+.navbar-head:hover {
+  color: #1ec7bc;
+}
+
+.banner-section-bg-container {
+  perspective: 1000px;
+  background-color: white;
+  background-size: cover;
+}
+
+.form-card-bg {
+  height: 50vh;
+  width: 180%;
+}
+
+.form-card-container {
+  color: white;
+  background: linear-gradient(
+    to top,
+    rgb(11, 119, 227, 0.7),
+    rgb(11, 119, 227, 0.7)
+  );
+  height: 450px;
+  width: 300px;
+  float: right;
+  margin-top: 85px;
+  margin-right: 15px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 0px;
+  box-shadow: 5px 5px 10px rgb(237, 211, 92);
+}
+
+.form-card-container h2 {
+  font-family: Arial;
+  height: 44px;
+  line-height: 44px;
+  background-color: #f25e0f;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form-card-container input {
+  width: 100%;
+  height: 40px;
+  margin-top: 14px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #e0eb0e;
+  font-size: 16px;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  background-color: #e8073b;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s ease;
+}
+
+.link {
+  font-family: Sans-Serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1.3px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #0eebd8;
+  font-size: 22px;
+  transition: 0.5s ease;
+}
+
+.link a:hover {
+  color: white;
+}
+
+.liw {
+  font-size: 20px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.icons-icon-container {
+  width: 30px;
+  height: 20px;
+  border-radius: 40px;
+  margin: 10px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  padding-left: 10px;
+  color: white;
+  font-size: 38px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.icons-icon-container:hover {
+  color: #1ec7bc;
+}
